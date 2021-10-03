@@ -1,0 +1,7 @@
+Q1 : Difference between let and var 
+Ans:The main difference between let and var is that scope of a variable defined with let is limited to the block
+       in which it is declared while variable declared with var has the global scope. 
+       So we can say that var is rather a keyword which defines a variable globally regardless of block scope.
+Q2 : Why are null,array printed as oject in console?
+Ans:typeof null returns "object" because of a peculiarity in the design of the language.
+       An array is an object. And like any object in JavaScript, the array instance has a constructor function 
