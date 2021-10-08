@@ -1,0 +1,31 @@
+Q1. Print elements of array using while & do while
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment - 3</title>
+</head>
+<body>
+    <script>
+        let arr=[1,2,3,4,5,6];
+        i=0;
+        while(i<arr.length)
+        {
+            console.log(arr[i]);
+            i++;
+        }
+        let arr2=["Randy","Melon","Maria","Dolphin"];
+        j=0;
+        do{
+            console.log(arr2[j]);
+            j++;
+        }while(j<=arr.length);
+    </script>
+</body>
+</html>
+Q2. Rewrite the grade example we did in If else-if using ternary operator.
+let marks = 75;
+let grade=(marks>=75 && marks <=100)?"A"
+    :(marks>=60 && marks <75)?"B"
+    :(marks>=35 && marks < 60)?"C"
+    :"F";
+console.log(`The candidate has scored ${marks} marks and secured ${grade} grade`);
